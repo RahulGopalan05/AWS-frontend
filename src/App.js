@@ -34,7 +34,7 @@ function App() {
     setLoading(true);
     setError(false);
 
-    fetch(`http://15.207.18.40/api/get_weather?city=${city}`)
+    fetch(`http://3.111.200.65/api/get_weather?city=${city}`)
       .then((res) => {
         if (res.status === 200) {
           setError(false);
